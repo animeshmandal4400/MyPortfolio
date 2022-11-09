@@ -1,0 +1,128 @@
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding: 200px 150px;
+}
+#HomePage {
+    padding:0px 10rem;
+
+}
+section {
+    margin:0px auto;
+
+}
+#home {
+  
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 0px;
+    
+}
+
+
+ .home_text {
+    padding:0 4rem;
+    text-align:left;
+    
+} 
+ 
+/* .Title::before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #dfdfe8;
+    font-size: 1.8rem;
+    
+    margin-top: -10rem;
+    left: -1.5rem;
+} */
+
+.image_container {
+    margin-left: 40px;
+}
+.image {
+    width: 50%;
+    border-radius: 50%;
+    
+}
+.Title {
+    font-size: clamp(40px, 7vw, 5rem);
+    font-weight: 800;
+}
+.intro {
+    margin: 15px;
+    margin-left: 0;
+    max-width: 40rem;
+}
+.right {
+    width: 40px;
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+    left: auto;
+    z-index: 10;
+}
+/* 
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.mail a {
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+}
+.mail ::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 18rem;
+    margin: 0px auto;
+    background-color:  #1E5128;
+} */
+/* .mail ::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 18rem;
+    margin: 0px auto;
+    background-color:  #1E5128;
+}
+ */
+#about {
+    height: 100vh;
+}
+
+/* responsive */
+
+@media screen and (max-width: 480px) {
+    
+    .home_text {
+        padding:0 .5rem;
+        text-align:left;
+    }
+    .Title {
+        font-size: 2rem;
+    } 
+    .btn{
+        size: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    #HomePage {
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    
+}
